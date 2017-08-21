@@ -39,7 +39,7 @@ pub const PARITY_GAS_LIMIT_DETERMINANT: U256 = U256([37, 0, 0, 0]);
 
 /// Number of blocks in an ethash snapshot.
 // make dependent on difficulty incrment divisor?
-const SNAPSHOT_BLOCKS: u64 = 30000;
+const SNAPSHOT_BLOCKS: u64 = 5000;
 
 /// Ethash params.
 #[derive(Debug, PartialEq)]
